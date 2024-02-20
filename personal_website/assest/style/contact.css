@@ -1,0 +1,60 @@
+/* css file to cnotact.html*/
+.contact{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70px 1fr 70px;
+    box-sizing: border-box;
+}
+.cards{
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 0 20px rgba(69, 69, 128, 25%);
+    padding: 10px 20px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-icon{
+    color: rgb(3, 3, 250);
+    font-size: 3.8em;
+}
+.card-btn{
+    color: white;
+    background-color: rgb(3, 3, 250);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top:50px;
+    margin-right: 20px;
+    transition: 0.7s ease;
+}
+.card-btn a{
+    color: white;
+    text-decoration: none;
+}
+.card-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
