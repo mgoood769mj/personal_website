@@ -39,16 +39,21 @@
      .cards{
          display: inline-block ;
          flex-direction: row;
-         margin-left: 100px;
      }
+     .card , .card:hover{
+       width: auto;
+       transform: none;
+    }
   }
   /* Media query for tablet devices */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container , .contact {
         display: inline-block;
     }
-    .cards{
-        margin-left: 150px;
-    }
+    .card , .card:hover , .card-btn:hover{
+        width: auto;
+        transform: none;
+     }
+
   }
 

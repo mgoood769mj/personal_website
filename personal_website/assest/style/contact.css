@@ -24,8 +24,8 @@
     background-color: white;
     box-shadow: 5px 0 20px rgba(69, 69, 128, 25%);
     padding: 10px 20px;
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: auto;
     text-align: center;
     transition: 0.7s ease;
 }
@@ -36,25 +36,4 @@
     color: rgb(3, 3, 250);
     font-size: 3.8em;
 }
-.card-btn{
-    color: white;
-    background-color: rgb(3, 3, 250);
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-top:50px;
-    margin-right: 20px;
-    transition: 0.7s ease;
-}
-.card-btn a{
-    color: white;
-    text-decoration: none;
-}
-.card-btn:hover{
-    background-color: #0a49f6;
-    transform: scale(1.1);
-}
+

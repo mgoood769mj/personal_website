@@ -95,3 +95,26 @@ img {
     background-color: rgb(9, 70, 128);
     color: white;
 }
+.card-btn{
+    color: white;
+    background-color: rgb(14, 170, 48);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top:50px;
+    margin: 20px 10px;
+    transition: 0.7s ease;     
+}
+.card-btn a{
+    color: white;
+    text-decoration: none;
+}
+.card-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
