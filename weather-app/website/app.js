@@ -71,7 +71,7 @@ const postData = async (url = '', data = {}) => {
     console.log(allData)
     // Write updated data to DOM elements
     const lastIndex = allData.length - 1;
-    document.getElementById('temp').innerHTML = allData[lastIndex].temperature;
+    document.getElementById('temp').innerHTML = Math.round(allData[lastIndex].temperature) + 'degrees';
     document.getElementById('content').innerHTML = allData[lastIndex].userResponse;
     document.getElementById("date").innerHTML =allData[lastIndex].date;
     }
